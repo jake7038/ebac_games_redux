@@ -2,48 +2,43 @@
   "produtos": [
     {
       "id": 1,
-      "titulo": "FIFA 23",
-      "plataformas": ["Xbox Series S/X","Windows","PS5"],
-      "precoAntigo": 299,
-      "preco": 190,
-      "categoria": "Esportes",
-      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png?w=440&thumb=false"
+      "titulo": "Copo do Thiago Silva Cria de Xerem",
+      "precoAntigo": 50,
+      "preco": 24.99,
+      "categoria": "Objetos",
+      "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/164406-1000-1000/copo-thiago-cria-de-xerem-61446-1.jpg?v=638583815872230000"
     },
     {
       "id": 2,
-      "titulo": "Gotham Knights",
-      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
-      "precoAntigo": 299,
-      "preco": 150,
-      "categoria": "Ação",
-      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202204/1422/cXffCEiRPrxFapUs6zxJQp1k.png?w=440&thumb=false"
+      "titulo": "Short Fluminense Masculino",
+      "precoAntigo": 550,
+      "preco": 400,
+      "categoria": "Bermudas",
+      "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/165155-1000-1000/short-fluminense-recorte-61419-1.jpg?v=638702958309230000"
     },
     {
       "id": 3,
-      "titulo": "The Witcher 3",
-      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
+      "titulo": "Camisa Fluminense Superbet Masculino",
+      "precoAntigo": 400,
+      "preco": 300,
+      "categoria": "Camisas",
+      "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/164650-1000-1000/camisa-masc-torcedor-of3-2024-umbro-61244-1.jpg?v=638617819689230000"
+    },
+    {
+      "id": 3,
+      "titulo": "Camisa Fluminense Feminina",
       "precoAntigo": 349,
-      "preco": 140.90,
-      "categoria": "Ação",
-      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png?w=440&thumb=false"
+      "preco": 255,
+      "categoria": "Camisas",
+      "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/162138-1000-1000/camisa-of1-2024-feminina-torcedor-1-1.jpg?v=638441999943400000"
     },
     {
-      "id": 4,
-      "titulo": "Hogwarts Legacy",
-      "plataformas": ["PS5", "Windows"],
-      "precoAntigo": null,
-      "preco": 349.90,
-      "categoria": "Aventura",
-      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/JmxLZt6exeqcKRz7BSmK8aId.png?w=440&thumb=false"
-    },
-    {
-      "id": 5,
-      "titulo": "Resident Evil 4",
-      "plataformas": ["PS5"],
-      "precoAntigo": null,
-      "preco": 349.90,
-      "categoria": "Ação",
-      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/85p2Dwh5iDhUzRKe40QeNYh3.png?w=440&thumb=false"
+      "id": 3,
+      "titulo": "Camisa Fluminense Regata Masculino",
+      "precoAntigo": 300,
+      "preco": 200,
+      "categoria": "Camisas",
+      "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/164057-1000-1000/regata-of1-masculina-2024-lisa-1.jpg?v=638531937033000000"
     }
 
   ]
