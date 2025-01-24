@@ -1,2 +1,6 @@
 **/*.ts
 src\App.tsx
+ebac_games_redux\src\index.tsx
+ebac_games_redux\src\App.tsx
+ebac_games_redux\src\components\Header\index.tsx
+ebac_games_redux\src\containers\Produtos.tsx
