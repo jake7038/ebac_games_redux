@@ -3,7 +3,6 @@ import { Game } from '../../App'
 import * as S from './styles'
 
 import { adicionar } from '../../store/reducers/carrinho'
-
 type Props = {
   game: Game
 }

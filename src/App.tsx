@@ -17,13 +17,12 @@ export type Game = {
 }
 
 function App() {
-
   return (
     <Provider store={store}>
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos  />
+        <Produtos />
       </div>
     </Provider>
   )
