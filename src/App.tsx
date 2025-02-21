@@ -8,7 +8,7 @@ import { store } from './store'
 
 export type Game = {
   id: number
-  titulo: string
+  nome: string
   plataformas: string[]
   precoAntigo: number
   preco: number

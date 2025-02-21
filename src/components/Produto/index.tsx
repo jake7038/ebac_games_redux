@@ -3,6 +3,7 @@ import { Game } from '../../App'
 import * as S from './styles'
 
 import { adicionar } from '../../store/reducers/carrinho'
+import { useState } from 'react'
 type Props = {
   game: Game
 }
@@ -14,19 +15,25 @@ export const paraReal = (valor: number) =>
 
 const Produto = ({ game }: Props) => {
   const dispatch = useDispatch()
+  const [check, setCheck] = useState(true)
+
+  const click = () => {
+    dispatch(adicionar(game))
+    setCheck(false)
+  }
 
   return (
     <S.Produto>
       <S.Capa>
-        <S.Tag>{game.categoria}</S.Tag>
-        <img src={game.imagem} alt={game.titulo} />
+        <S.Tag>{check ? '' : '✔️'}</S.Tag>
+        <img src={game.imagem} alt={game.nome} />
       </S.Capa>
-      <S.Titulo>{game.titulo}</S.Titulo>
+      <S.Titulo>{game.nome.split(' ').slice(0, 3).join(' ')}</S.Titulo>
       <S.Prices>
         {game.precoAntigo && <small>{paraReal(game.precoAntigo)}</small>}
         <strong>{paraReal(game.preco)}</strong>
       </S.Prices>
-      <S.BtnComprar onClick={() => dispatch(adicionar(game))} type="button">
+      <S.BtnComprar onClick={() => click()} type="button">
         Adicionar ao carrinho
       </S.BtnComprar>
     </S.Produto>

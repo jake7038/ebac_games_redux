@@ -37,8 +37,8 @@ export const Tag = styled.span`
   position: absolute;
   top: 8px;
   left: 8px;
-  padding: 8px;
-  font-size: 12px;
+  padding: 4px;
+  font-size: 10px;
   font-weight: 700;
   color: #fff;
 `
